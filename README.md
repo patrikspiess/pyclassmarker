@@ -15,11 +15,28 @@ poetry install
 
 ## Usage
 
-Run the convert script to convert a Class Marker CSV file:
+Either run the convert command (suggested):
 
 ```bash
-poetry add python pyclassmarker\convert.py <ClassMarker CSV file>
+poetry run convert <ClassMarker CSV file>
 ```
+
+Or run the convert script:
+
+```bash
+poetry run python pyclassmarker\convert.py <ClassMarker CSV file>
+```
+
+## Data handling
+
+### Input files
+
+You may use the *data* directory to put your ClassMarker files into. This directory will not get
+published to the GitHub repository.
+
+### Output files
+
+Output files wil be placed in the directory where the input file was specified.
 
 ## Contributing
 
