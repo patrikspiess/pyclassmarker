@@ -1,0 +1,22 @@
+# local visual studio code configuration
+.vscode/
+
+# virtual environment
+.venv/
+
+# caches
+__pycache__
+.pytest_chache/
+.tox/
+.coverage
+
+# Builds
+dist/
+
+# files and directories
+*.log
+*.yaml
+/data/
+
+# try*.py files are used to do some spontaneous tests and experiments
+try*.py
