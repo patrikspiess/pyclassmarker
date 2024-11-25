@@ -8,7 +8,7 @@ files.
 Clone the repository from GitHub and install it with Poetry to create its virtual environment.
 
 ```bash
-git clone ...
+git clone git@github.com:patrikspiess/pyclassmarker.git
 cd pyClassMarker
 poetry install
 ```
@@ -30,12 +30,9 @@ If anyone is willing to write some tests please use pytest and pytest-cov and fe
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT License](https://choosealicense.com/licenses/mit/)
 
-
->MIT License
->
->Copyright (c) [year] [fullname]
+>Copyright (c) [2024] [Patrik Spiess]
 >
 >Permission is hereby granted, free of charge, to any person obtaining a copy
 >of this software and associated documentation files (the "Software"), to deal
