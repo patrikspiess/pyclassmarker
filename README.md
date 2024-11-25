@@ -9,7 +9,7 @@ Clone the repository from GitHub and install it with Poetry to create its virtua
 
 ```bash
 git clone git@github.com:patrikspiess/pyclassmarker.git
-cd pyClassMarker
+cd pyclassmarker
 poetry install
 ```
 
